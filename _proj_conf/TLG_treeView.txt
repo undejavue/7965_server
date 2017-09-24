@@ -1,0 +1,3 @@
+objTree.Nodes.Add , , "D0", "Сигнал-тест"
+objTree.Nodes.Add , , "D0_M2S00", "Тестовая мешалка 2х скоростная"
+

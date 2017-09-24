@@ -1,1 +1,5 @@
 GraCS/samples/*.*
+ArchiveManager/*.*
+ArchiveManager/AlarmLogging/*.*
+ArchiveManager/TagLoggingFast/*.*
+ArchiveManager/TagLoggingSlow/*.*
