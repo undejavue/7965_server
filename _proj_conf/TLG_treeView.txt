@@ -175,3 +175,17 @@ objTree.Nodes.Add , , "D88", "Танки системы использования тепла сыворотки (WRG) 
 objTree.Nodes.Add , , "D21", "Линия приемки 1"
 objTree.Nodes.Add , , "D22", "Линия приемки 2"
 
+objTree.Nodes.Add , , "D12", "CIP №2 (CIP линии пастеризованного молока)"
+objTree.Nodes.Add , , "D91", "Отделение посолки (общее)"
+objTree.Nodes.Add "D91", tvwChild, "D91_A02", HMIRuntime.Tags("D91_A02_description").Read
+objTree.Nodes.Add "D91", tvwChild, "D91_A03", HMIRuntime.Tags("D91_A03_description").Read
+objTree.Nodes.Add "D91", tvwChild, "D91_A04", HMIRuntime.Tags("D91_A04_description").Read
+objTree.Nodes.Add , , "D92", "Буферный танк рассола Т92"
+objTree.Nodes.Add "D92", tvwChild, "D92_A03", HMIRuntime.Tags("D92_A03_description").Read
+objTree.Nodes.Add , , "D92_MXR_2S01", "Мешалка T92"
+objTree.Nodes.Add , , "D93", "Участок подготовки рассола"
+objTree.Nodes.Add , , "D94", "Станция загрузки"
+objTree.Nodes.Add , , "D95", "Станция выгрузки"
+objTree.Nodes.Add , , "D96", "Транспортная система загрузки"
+objTree.Nodes.Add , , "D97", "Транспортная система выгрузки"
+
