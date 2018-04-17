@@ -207,3 +207,8 @@ objTree.Nodes.Add , , "D67", "Очистка сыворотки (вибросито), охладитель сыворотк
 objTree.Nodes.Add , , "D72", "Пастеризатор сыворотки 72"
 objTree.Nodes.Add , , "D81", "Нанофильтрация/обратный осмос (общее)"
 
+objTree.Nodes.Add , , "D12", "CIP №2 (CIP линии пастеризованного молока)"
+objTree.Nodes.Add "D12", tvwChild, "D12_A04", HMIRuntime.Tags("D12_A04_description").Read
+
+
+
