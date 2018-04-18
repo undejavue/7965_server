@@ -212,3 +212,5 @@ objTree.Nodes.Add "D12", tvwChild, "D12_A04", HMIRuntime.Tags("D12_A04_descripti
 
 
 
+objTree.Nodes.Add , , "GEA", "Сигналы обмена с сепараторами"
+
