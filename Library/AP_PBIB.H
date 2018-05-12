@@ -1,5 +1,4 @@
 #include "AP_GLOB.H"
-
 BYTE TM_check_AWR (char* prg);	//GSC_NAME:TM_check_AWR	GSC_PROTOTYPE:\tm_check_awr.fct
 BOOL tproj_ConnectToPWRT ();	//GSC_NAME:tproj_ConnectToPWRT	GSC_PROTOTYPE:\tproj_connecttopwrt.fct
 SYSTEMTIME tproj_DifTime (SYSTEMTIME st, long double dwTimeShift);	//GSC_NAME:tproj_DifTime	GSC_PROTOTYPE:\tproj_diftime.fct
@@ -18,6 +17,8 @@ void tproj_ShowDevice (char* TagBaseName, char* DevModelName);	//GSC_NAME:tproj_
 void tproj_ShowDeviceSlider (char* TagBaseName, char* DevModelName);	//GSC_NAME:tproj_ShowDeviceSlider	GSC_PROTOTYPE:\tproj_showdeviceslider.fct
 void tproj_ShowKeyboardFloat (char* prefix, char* lpszPictureName, char* lpszObjectName, char* Caption);	//GSC_NAME:tproj_ShowKeyboardFloat	GSC_PROTOTYPE:\tproj_showkeyboardfloat.fct
 void tproj_ShowPoorWindow (char* TagBaseName, char* DevModelName);	//GSC_NAME:tproj_ShowPoorWindow	GSC_PROTOTYPE:\tproj_showpoorwindow.fct
+BOOL tproj_ShowTrend (char* TLG_ARHNAME, char* TagBaseName);	//GSC_NAME:tproj_ShowTrend	GSC_PROTOTYPE:\tproj_showtrend.fct
+BOOL tproj_ShowTrendRazm (char* TLG_ARHNAME, char* TagBaseName, char* Razm);	//GSC_NAME:tproj_ShowTrendRazm	GSC_PROTOTYPE:\tproj_showtrendrazm.fct
 BOOL tproj_ShowTrendSimple (char* TLG_ARHNAME, char* TagBaseName);	//GSC_NAME:tproj_ShowTrendSimple	GSC_PROTOTYPE:\tproj_showtrendsimple.fct
 BOOL tproj_Users_Group ();	//GSC_NAME:tproj_Users_Group	GSC_PROTOTYPE:\tproj_users_group.fct
 void tproj_Users_Level ();	//GSC_NAME:tproj_Users_Level	GSC_PROTOTYPE:\tproj_users_level.fct
@@ -25,5 +26,3 @@ BOOL tproj_Users_ReadLevel (DWORD level);	//GSC_NAME:tproj_Users_ReadLevel	GSC_P
 void tproj_WriteAckMessageToLog (char* param, char* name, char* codename, char* description);	//GSC_NAME:tproj_WriteAckMessageToLog	GSC_PROTOTYPE:\tproj_writeackmessagetolog.fct
 void tproj_WriteControlMessageToLog (char* param, char* name, char* codename, char* pageCODE);	//GSC_NAME:tproj_WriteControlMessageToLog	GSC_PROTOTYPE:\tproj_writecontrolmessagetolog.fct
 void tproj_WriteOIMessageToLog (char* name, char* codename, char* razm, char* pageCODE, double lastValue, double newValue);	//GSC_NAME:tproj_WriteOIMessageToLog	GSC_PROTOTYPE:\tproj_writeoimessagetolog.fct
-BOOL tproj_ShowTrendRazm (char* TLG_ARHNAME, char* TagBaseName, char* Razm);	//GSC_NAME:tproj_ShowTrendRazm	GSC_PROTOTYPE:\tproj_showtrendrazm.fct
-BOOL tproj_ShowTrend (char* TLG_ARHNAME, char* TagBaseName);	//GSC_NAME:tproj_ShowTrend	GSC_PROTOTYPE:\tproj_showtrend.fct

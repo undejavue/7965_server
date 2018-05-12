@@ -214,3 +214,8 @@ objTree.Nodes.Add "D12", tvwChild, "D12_A04", HMIRuntime.Tags("D12_A04_descripti
 
 objTree.Nodes.Add , , "GEA", "Сигналы обмена с сепараторами"
 
+
+objTree.Nodes.Add , , "D43", "Пастеризатор нормализованного молока 43"
+
+objTree.Nodes.Add , , "D88", "Танки системы использования тепла сыворотки (WRG) T88"
+
